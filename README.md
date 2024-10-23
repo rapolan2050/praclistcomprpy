@@ -26,14 +26,14 @@ combinando ambas listas usando una List Comprehension.
 
 Solución: 
 
-# se nombran las dos listas 
+* se nombran las dos listas 
 names = ["nombre", "edad", "ocupation"]
 values = ["Juan", 30, "Ingeniero"]
 
-# aqui fusionamos ambas listas creando el diccionario contenido en una lista
+* aqui fusionamos ambas listas creando el diccionario contenido en una lista
 new_dict = [dict(zip(names,values))]
 
-# aqui creamos el diccionario con el contenido de las dos listas
+* aqui creamos el diccionario con el contenido de las dos listas
 diccionario = {names[i]:values[i] for i in range(len(names))}
 
 4) Anidación de List Comprehensions
